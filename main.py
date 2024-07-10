@@ -190,7 +190,7 @@ def comment_dataframe(comments_data):
 def connection():
     config = {
         'user': 'root',
-        'password': 'root',
+        'password': 'root',   # Here, given your sql database password
         'host': 'localhost',
         'auth_plugin': 'mysql_native_password',
         'database': 'youtube_data',
