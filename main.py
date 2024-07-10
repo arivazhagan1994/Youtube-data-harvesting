@@ -32,7 +32,7 @@ with st.sidebar:
     )
     
 def api_connect():
-    api_key = "YOUR-API-KEY"
+    api_key = "YOUR-API-KEY"   # Here, put your api-key
     api_service_name = "youtube"
     api_version = "v3"
     youtube = build(api_service_name, api_version, developerKey=api_key)
