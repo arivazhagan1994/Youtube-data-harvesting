@@ -32,7 +32,7 @@ with st.sidebar:
     )
     
 def api_connect():
-    api_key = "AIzaSyBvEmhvC9JxgX6JNCJ2fpW0L7YAj26pD-E"
+    api_key = "YOUR-API-KEY"
     api_service_name = "youtube"
     api_version = "v3"
     youtube = build(api_service_name, api_version, developerKey=api_key)
@@ -190,7 +190,7 @@ def comment_dataframe(comments_data):
 def connection():
     config = {
         'user': 'root',
-        'password': 'Arivu@1994',
+        'password': 'root',
         'host': 'localhost',
         'auth_plugin': 'mysql_native_password',
         'database': 'youtube_data',
